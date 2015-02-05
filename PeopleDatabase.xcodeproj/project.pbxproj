@@ -10,6 +10,7 @@
 		DD73EC3B1793BCA900ADFAED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD73EC3A1793BCA900ADFAED /* Foundation.framework */; };
 		DD73EC3E1793BCA900ADFAED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD73EC3D1793BCA900ADFAED /* main.m */; };
 		DD73EC421793BCA900ADFAED /* PeopleDatabase.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = DD73EC411793BCA900ADFAED /* PeopleDatabase.1 */; };
+		DD73EC4A1793EF0C00ADFAED /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = DD73EC491793EF0C00ADFAED /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		DD73EC3D1793BCA900ADFAED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DD73EC401793BCA900ADFAED /* PeopleDatabase-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PeopleDatabase-Prefix.pch"; sourceTree = "<group>"; };
 		DD73EC411793BCA900ADFAED /* PeopleDatabase.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = PeopleDatabase.1; sourceTree = "<group>"; };
+		DD73EC481793EF0C00ADFAED /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		DD73EC491793EF0C00ADFAED /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				DD73EC3D1793BCA900ADFAED /* main.m */,
+				DD73EC481793EF0C00ADFAED /* Person.h */,
+				DD73EC491793EF0C00ADFAED /* Person.m */,
 				DD73EC411793BCA900ADFAED /* PeopleDatabase.1 */,
 				DD73EC3F1793BCA900ADFAED /* Supporting Files */,
 			);
@@ -140,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD73EC3E1793BCA900ADFAED /* main.m in Sources */,
+				DD73EC4A1793EF0C00ADFAED /* Person.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
